@@ -74,4 +74,6 @@ public class SplashActivity extends AppCompatActivity {
 
         }
     }
+
+    //Finally Done With Git
 }
