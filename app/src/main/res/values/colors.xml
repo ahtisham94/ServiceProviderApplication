@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3ce57c</color>
+    <color name="colorPrimaryDark">#2bcf6e</color>
+    <color name="navigationBarColor">#3ce57c</color>
+    <color name="colorAccent">#3ce57c</color>
+    <color name="signin">#2bcf6e</color>
+    <color name="regulartext">#1a1a1a</color>
+    <color name="heading">#0a0a0a</color>
+    <color name="background">#fafafa</color>
+    <color name="otherservices">#999999</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorControlHighlight">#3ce57c</color>
+    <color name="baseReleaseColor">#212121</color>
+    <color name="basePressColor">#fafafa</color>
+    <color name="ballReleaseColor">#9e9e9e</color>
+</resources>

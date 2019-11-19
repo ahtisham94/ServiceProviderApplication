@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Service Provider Application</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="google_direction_api">AIzaSyAjFgyV3yJah4PJ_2Yr-122XhCFYm4sCtI</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="drawer_open">Drawer open</string>
+    <string name="drawer_close">Drawer close</string>
+    <string name="emailhintlogin">Enter Username</string>
+    <string name="passhintlogin">Enter Password</string>
+    <string name="needaccount">Need an Account?</string>
+    <string name="clickhere"> Click Here</string>
+    <string name="example_mail_com">  Example@mail.com</string>
+    <string name="password">  ******</string>
+    <string name="sign_in_to_your_account">Sign In</string>
+    <string name="sign_in">Sign in</string>
+    <string name="electronic_service_details"><![CDATA[Household Wiring to Light & Fan Installation, Fan Servicing to Water Motor Servicing, Generator Installation, Generator Repairing, UPS Repairing, IPS Servicing— Get any kinds of electrical works done by the best professions at your place.]]></string>
+    <string name="plumbing_service">Water Tap, Kitchen Sink, Basin Clog, Water Line Jam, Shower Head, Push Shower, Hand Shower, Commode Low Down, Commode Jam, Complete New Sanitary Setup, GAS stove Installation— For any kind of plumbing dysfunction, you can find the best plumber to fix it right away.</string>
+    <string name="painting_service">Get your home or office painted by the best painting professionals. LSP offers you a wide range of services including- Wall plaster work, Power washing, Drywall repair, Waterproofing, Wall Painting, Custom Design Color, Floor coating, Weather coat, Distemper and more.</string>
+    <string name="laundry_service">LSP is here to search for laundry services providers! Get the state-of-the-art dry wash and laundry Services according to your need. We have multiple services providers to choose from. No matter how many pieces of clothes you have, it takes only ONE MINUTE to search for a service provider.</string>
+    <string name="interiordesign_service">LSP has the town’s best and creative interior design professionals who have rich experience. Search any kinds of interior works including- New Interior Design, Wall Paper, Lamination Paper, False Ceiling and many more.</string>
+    <string name="hometutor_service">LSP has experienced teachers for your children. Yo can search for any home tutor, you can visit his/her profile to analyze their skills in order to select a home tutor.</string>
+    <string name="homeappliances_service">What to service? Be it Fridge Servicing, Oven Repairing, Geyser Installation &amp; Repairing, Washing Machine Servicing, TV Repairing, Wall TV Installation- LSP will provide you with experienced workers. Search in a minute.</string>
+    <string name="computer_service">LSP makes your computing life easy and hassle free. Now you can get your Desktop, Laptop, Notebook, Printer, Photocopier serviced by the best computer hardware engineers.</string>
+    <string name="carpentry_service">LSP has the town\'s best professional carpenters who have done hundreds of professional projects. Search our best wood professionals for any kinds of furniture repairing, varnishing and making works at very affordable rates.</string>
+    <string name="ac_services">LSP has the town\'s best professional AC repairers who have done hundreds of professional projects. Search our best AC professionals for any kinds of repairing at very affordable rates.</string>
+    <string-array name="profession">
+        <item>Profession</item>
+        <item>Electrician</item>
+        <item>Plumber</item>
+        <item>Home Appliances Repairer</item>
+        <item>Painter</item>
+        <item>Carpenter</item>
+        <item>Computer Repairer</item>
+        <item>Interior Designer</item>
+        <item>WasherMan</item>
+        <item>Home Tutor</item>
+        <item>AC Repairer</item>
+    </string-array>
+    <string-array name="experience">
+        <item>Experience</item>
+        <item>1 year</item>
+        <item>2 years</item>
+        <item>3 years</item>
+        <item>4 years</item>
+        <item>5 years</item>
+        <item>> 5 years</item>
+    </string-array>
+    <string name="title_activity_user_location">Map</string>
+    <string name="title_activity_splocation">Map</string>
+    <string name="title_activity_sptracking">Map</string>
+</resources>

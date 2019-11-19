@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.serviceproviderapplication.ApplicationRatingActivity"
+    android:padding="8dp"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:orientation="vertical"
+            android:paddingTop="36dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:text="Thankyou for using LSp"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:padding="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:text="Rate Us"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:padding="20dp"/>
+
+            <me.zhanghai.android.materialratingbar.MaterialRatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rating="0"
+                app:mrb_progressTint="@color/colorPrimaryDark"
+                app:mrb_secondaryProgressTint="@color/colorPrimaryDark"
+                style="@style/Widget.MaterialRatingBar.RatingBar"/>
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/editText_Comment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:maxLines="10"
+                android:hint="Comment"
+                android:textColor="@android:color/background_dark"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="18sp"
+                app:met_baseColor="@color/colorPrimary"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorPrimary"
+                app:met_singleLineEllipsis="false"
+                android:padding="10dp"/>
+            <Button
+                android:id="@+id/btn_Submit"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button_design"
+                android:backgroundTint="@color/colorPrimary"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
